@@ -1,0 +1,21 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap');
+
+@import "tailwindcss";
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+}
+@keyframes zoom {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.animate-zoom {
+  animation: zoom 20s ease-in-out infinite;
+}
