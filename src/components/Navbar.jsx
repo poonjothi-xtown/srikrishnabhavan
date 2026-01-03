@@ -51,20 +51,20 @@ function Navbar() {
                     <span className="block h-0.5 bg-yellow-300 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                 </NavLink>
             </li>
-           <li>
-  <NavLink
-    to="/order-now"
-    onClick={handleLinkClick}
-    className={({ isActive }) =>
-      isActive
-        ? "relative text-white font-semibold text-lg group border-b-2 border-yellow-300 pb-1"
-        : "relative text-white font-semibold text-lg group"
-    }
-  >
-    Order Now
-    <span className="block h-0.5 bg-yellow-300 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
-  </NavLink>
-</li>
+            <li>
+                <NavLink
+                    to="/order-now"
+                    onClick={handleLinkClick}
+                    className={({ isActive }) =>
+                        isActive
+                            ? "relative text-white font-semibold text-lg group border-b-2 border-yellow-300 pb-1"
+                            : "relative text-white font-semibold text-lg group"
+                    }
+                >
+                    Order Now
+                    <span className="block h-0.5 bg-yellow-300 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+                </NavLink>
+            </li>
 
             <li>
                 <NavLink
@@ -92,11 +92,11 @@ function Navbar() {
                     <div className="flex items-center gap-2">
                         <img
                             src={logo}
-                            alt="Sri Krishna Bhavan Logo"
+                            alt="sri krishana bhavan Logo"
                             className="w-10 h-10 rounded-full object-cover"
                         />
                         <h1 className="text-3xl font-extrabold text-white tracking-wide">
-                            SRI KRISHNA BHAVAN
+                            SRI KRISHANA BHAVAN
                         </h1>
                     </div>
 
@@ -113,16 +113,14 @@ function Navbar() {
             {/* Overlay */}
             <div
                 onClick={closeSidebar}
-                className={`fixed inset-0 bg-black bg-opacity-40 z-40 transition-opacity duration-300 ${
-                    sidebarOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
-                }`}
+                className={`fixed inset-0 bg-black bg-opacity-40 z-40 transition-opacity duration-300 ${sidebarOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+                    }`}
             />
 
             {/* Sidebar */}
             <div
-                className={`fixed top-0 right-0 w-64 h-full bg-gradient-to-r from-emerald-600 to-lime-600 z-50 transform transition-transform duration-300 ${
-                    sidebarOpen ? 'translate-x-0' : 'translate-x-full'
-                }`}
+                className={`fixed top-0 right-0 w-64 h-full bg-gradient-to-r from-emerald-600 to-lime-600 z-50 transform transition-transform duration-300 ${sidebarOpen ? 'translate-x-0' : 'translate-x-full'
+                    }`}
             >
                 <div className="flex justify-between items-center px-6 py-4 border-b bg-gradient-to-r from-emerald-600 to-lime-600">
                     <h2 className="text-white text-lg font-bold">Menu</h2>

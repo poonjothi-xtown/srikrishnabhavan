@@ -127,7 +127,7 @@ const WHATSAPP_NUMBER = "917010856620"; // <-- replace xxx with your number incl
         <div className="relative z-10 text-white px-4">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 tracking-wide animate-fadeInDown flex items-center justify-center gap-3">
             <FaUtensils className="text-yellow-400" />
-            Sri Krishna Bhavan
+            SRI KRISHANA BHAVAN
           </h1>
           <p className="text-lg md:text-xl mb-6 font-medium animate-fadeInUp">
             Every Bite Tells a Story
@@ -148,7 +148,7 @@ const WHATSAPP_NUMBER = "917010856620"; // <-- replace xxx with your number incl
       <section className="relative px-6 md:px-20 text-center overflow-hidden">
         <div className="animate-on-scroll visible">
           <p className="max-w-3xl mx-auto text-xl md:text-2xl text-black leading-relaxed font-medium mb-10">
-            "At Sri Krishna Bhavan, every dish tells a story! From sizzling street-food favorites to hearty traditional meals, we bring flavors to life."
+            "At Sri Krishana Bhavan, every dish tells a story! From sizzling street-food favorites to hearty traditional meals, we bring flavors to life."
           </p>
 
           <div className="flex flex-wrap justify-center gap-8 mt-6">

@@ -20,11 +20,11 @@ export default function Footer() {
           {/* Left: Heading + Socials */}
           <div className="flex flex-col items-start text-left flex-1">
             <h1 className="text-2xl sm:text-3xl font-extrabold text-white">
-              SRI KRISHNA BHAVAN
+              SRI KRISHANA BHAVAN
             </h1>
 
             <p className="mt-2 text-xs sm:text-sm text-yellow-100 max-w-xs leading-relaxed">
-              Experience the joy of flavors with Sri Krishna Bhavan — a place where every dish tells a story.
+              Experience the joy of flavors with Sri Krishana Bhavan — a place where every dish tells a story.
             </p>
 
             {/* Social Icons */}
@@ -45,11 +45,11 @@ export default function Footer() {
           <div className="flex flex-col items-center flex-shrink-0">
             <img
               src={logo}
-              alt="Sri Krishna Bhavan Logo"
+              alt="sri krishana bhavan Logo"
               className="w-20 sm:w-24 lg:w-28 rounded-full"
             />
             <p className="text-xs sm:text-sm italic text-yellow-100 mt-2 text-center">
-              "BLESSED FLAVOURS OF KRISHA'S KITCHEN"
+              "BLESSED FLAVOURS OF KRISHANA'S KITCHEN"
             </p>
           </div>
 
@@ -65,7 +65,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-2">
                 <FaEnvelope className="text-white text-base" />
-                <span>support@krishnabhavan.com</span>
+                <span>support@srikrishanabhavan.com</span>
               </li>
               <li className="flex items-center space-x-2">
                 <FaMapMarkerAlt className="text-white text-base" />
@@ -77,7 +77,7 @@ export default function Footer() {
 
         {/* Bottom Copyright */}
         <div className="border-t border-white/30 mt-4 pt-2 text-center text-xs sm:text-sm text-yellow-100">
-          © {new Date().getFullYear()} Sri Krishna Bhavan. All Rights Reserved.
+          © {new Date().getFullYear()} Sri Krishana Bhavan. All Rights Reserved.
         </div>
       </div>
     </footer>
