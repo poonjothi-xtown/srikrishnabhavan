@@ -65,11 +65,13 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-2">
                 <FaEnvelope className="text-white text-base" />
-                <span>support@srikrishanabhavan.com</span>
+                <span> c.madhuperumal@gmail.com</span>
               </li>
               <li className="flex items-center space-x-2">
                 <FaMapMarkerAlt className="text-white text-base" />
-                <span>123 Flavor Street, Food City</span>
+                <span> 24, Kadaieswarar Garden,<br />
+                  Backside of Velavan Nagar,<br />
+                  Coimbatore-641035</span>
               </li>
             </ul>
           </div>
